@@ -13,6 +13,10 @@ public class Service {
 		movieMap = new HashMap<Integer, Movie>();
 	}
 
+	public Map<Integer, Movie> getMovieMap() {
+		return movieMap;
+	}
+
 	public void addMovie(Movie aMovie) {
 		count++;
 		movieMap.put(count, aMovie);
